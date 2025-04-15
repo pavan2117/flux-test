@@ -4806,6 +4806,8 @@ spec:
 apiVersion: v1
 kind: ServiceAccount
 metadata:
+  annotations:
+    azure.workload.identity/client-id: c3b3e269-9462-46a7-9e36-efb5fb6ea10e
   labels:
     app.kubernetes.io/component: source-controller
     app.kubernetes.io/instance: flux-system
@@ -10524,6 +10526,8 @@ spec:
 apiVersion: v1
 kind: ServiceAccount
 metadata:
+  annotations:
+    azure.workload.identity/client-id: c3b3e269-9462-46a7-9e36-efb5fb6ea10e
   labels:
     app.kubernetes.io/component: helm-controller
     app.kubernetes.io/instance: flux-system
