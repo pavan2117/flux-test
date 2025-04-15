@@ -1,0 +1,9 @@
+apiVersion: source.toolkit.fluxcd.io/v1
+kind: HelmRepository
+metadata:
+  name: acr-helm
+  namespace: flux-system
+spec:
+  type: oci
+  interval: 1m
+  url: oci://devopsreg9396.azurecr.io/helm
