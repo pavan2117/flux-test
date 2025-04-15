@@ -4841,6 +4841,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   labels:
+    azure.workload.identity/use: "true"
     app.kubernetes.io/component: source-controller
     app.kubernetes.io/instance: flux-system
     app.kubernetes.io/part-of: flux
@@ -10540,6 +10541,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   labels:
+    azure.workload.identity/use: "true"
     app.kubernetes.io/component: helm-controller
     app.kubernetes.io/instance: flux-system
     app.kubernetes.io/part-of: flux
