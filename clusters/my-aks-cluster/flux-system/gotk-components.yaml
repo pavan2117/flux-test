@@ -4875,6 +4875,8 @@ spec:
         - --storage-path=/data
         - --storage-adv-addr=source-controller.$(RUNTIME_NAMESPACE).svc.cluster.local.
         env:
+        - name: AZURE_CLIENT_ID
+          value: c3b3e269-9462-46a7-9e36-efb5fb6ea10e
         - name: RUNTIME_NAMESPACE
           valueFrom:
             fieldRef:
@@ -10572,6 +10574,8 @@ spec:
         - --log-encoding=json
         - --enable-leader-election
         env:
+        - name: AZURE_CLIENT_ID
+          value: c3b3e269-9462-46a7-9e36-efb5fb6ea10e
         - name: RUNTIME_NAMESPACE
           valueFrom:
             fieldRef:
