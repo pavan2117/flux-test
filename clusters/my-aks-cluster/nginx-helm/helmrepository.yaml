@@ -6,4 +6,4 @@ metadata:
 spec:
   type: oci
   interval: 1m
-  url: oci://devopsreg9396.azurecr.io/helm
+  url: oci://azdevopsreg.azurecr.io/helm
