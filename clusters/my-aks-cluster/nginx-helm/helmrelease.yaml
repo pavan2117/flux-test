@@ -12,7 +12,7 @@ spec:
       sourceRef:
         kind: HelmRepository
         name: acr-helm
-        namespace: flux-system
+        namespace: helm-ns
   values:
     # override values.yaml here if needed
     replicaCount: 2
