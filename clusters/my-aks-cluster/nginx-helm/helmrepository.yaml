@@ -2,7 +2,7 @@ apiVersion: source.toolkit.fluxcd.io/v1
 kind: HelmRepository
 metadata:
   name: acr-helm
-  namespace: flux-system
+  namespace: flux-conf-ns
 spec:
   type: oci
   provider: azure
